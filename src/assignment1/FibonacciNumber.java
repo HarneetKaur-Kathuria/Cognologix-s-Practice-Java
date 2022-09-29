@@ -1,6 +1,7 @@
 package assignment1;
 
 import java.sql.SQLOutput;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class FibonacciNumber {
@@ -13,8 +14,8 @@ public class FibonacciNumber {
         while(fib<=num-2){
             fib = fib1+fib2;
             System.out.print(fib+" ");
-            fib1= fib2;
-            fib2=fib;
+            fib1 = fib2;
+            fib2 = fib;
         }
     }
 }
